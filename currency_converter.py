@@ -6,8 +6,11 @@ from decimal import Decimal
 
 def convert(amount, cur_from, cur_to, date):
 	"""
-	To that function you should transfer amount of value that you have, name of the currency that you have and name of the currency that you want to transfer
-	to (according to the abbreviations of Central Bank of Russian Federation API) and, finally, the date for which you want to get the calclulation. This function can help you to get accurate calculationfor your daily tasks
+	To that function you should transfer amount of value that you have, name of the currency
+	that you have and name of the currency that you want to transfer
+	to (according to the abbreviations of Central Bank of Russian Federation API) and, finally, 
+	the date for which you want to get the calclulation. This function can help you to get accurate 
+	calculation for your daily tasks
 	
 	"""
 	page = requests.get('http://www.cbr.ru/scripts/XML_daily.asp', params = {
