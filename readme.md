@@ -1,0 +1,2 @@
+This is a python script that contains function that can help you if you often do calculations, related with currencies. You should note that all results will be quantized to 4 decimal places and that project gets all rates from official API of Central Bank of Russian Federation.
+More documentation in docstrings in file currency_converter.py
